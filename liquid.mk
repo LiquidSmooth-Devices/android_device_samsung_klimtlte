@@ -1,9 +1,9 @@
 $(call inherit-product, device/samsung/klimtlte/full_klimtlte.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Liquid stuff.
+$(call inherit-product, vendor/liquid/config/common_full_tablet_lte.mk)
 
-PRODUCT_NAME := cm_klimtlte
+PRODUCT_NAME := liquid_klimtlte
 PRODUCT_DEVICE := klimtlte
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
