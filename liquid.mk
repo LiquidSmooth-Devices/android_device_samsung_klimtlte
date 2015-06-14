@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/klimtlte/full_klimtlte.mk)
 
 # Inherit some common Liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_full_tablet_lte.mk)
+$(call inherit-product, vendor/liquid/config/common_tablet_lte.mk)
 
 PRODUCT_NAME := liquid_klimtlte
 PRODUCT_DEVICE := klimtlte
