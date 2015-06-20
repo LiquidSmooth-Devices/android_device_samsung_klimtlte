@@ -6,6 +6,12 @@
         "revision": "5.1"
     },
     {
+        "remote": "lsd",
+        "repository": "android_device_samsung_exynos5420-common",
+        "target_path": "device/samsung/exynos5420-common",
+        "revision": "5.1"
+    },
+    {
         "remote": "cm",
         "repository": "android_hardware_samsung",
         "target_path": "hardware/samsung",
@@ -36,9 +42,9 @@
         "revision": "cm-12.1"
     },
     {
-        "remote": "tm",
-        "repository": "proprietary_vendor_samsung",
+        "remote": "gh",
+        "repository": "schwabe93/vendor_samsung_klimtlte",
         "target_path": "vendor/samsung",
-        "revision": "cm-12.1"
+        "revision": "master"
     }
 ]
